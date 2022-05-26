@@ -1,0 +1,79 @@
+items:
+  - colors:
+      name: 3024 (dark)
+      author: Chris Kempson
+      primary:
+        background: "#090300"
+        foreground: "#a5a2a2"
+      cursor:
+        text: "#090300"
+        cursor: "#a5a2a2"
+      normal:
+        black: "#090300"
+        red: "#db2d20"
+        green: "#01a252"
+        yellow: "#fded02"
+        blue: "#01a0e4"
+        magenta: "#a16a94"
+        cyan: "#b5e4f4"
+        white: "#a5a2a2"
+      bright:
+        black: "#5c5855"
+        red: "#db2d20"
+        green: "#01a252"
+        yellow: "#fded02"
+        blue: "#01a0e4"
+        magenta: "#a16a94"
+        cyan: "#b5e4f4"
+        white: "#f7f7f7"
+  - theme: 3024.dark
+colors:
+  name: Railscasts (dark)
+  author: Chris Kempson
+  primary:
+    background: "#2b2b2b"
+    foreground: "#e6e1dc"
+  cursor:
+    text: "#2b2b2b"
+    cursor: "#e6e1dc"
+  normal:
+    black: "#2b2b2b"
+    red: "#da4939"
+    green: "#a5c261"
+    yellow: "#ffc66d"
+    blue: "#6d9cbe"
+    magenta: "#b6b3eb"
+    cyan: "#519f50"
+    white: "#e6e1dc"
+  bright:
+    black: "#5a647e"
+    red: "#da4939"
+    green: "#a5c261"
+    yellow: "#ffc66d"
+    blue: "#6d9cbe"
+    magenta: "#b6b3eb"
+    cyan: "#519f50"
+    white: "#f9f7f3"
+theme: Railscasts.dark
+
+font:
+  normal:
+    family: FiraCode Nerd Font
+    style: Regular
+
+  bold:
+    family: FiraCode Nerd Font
+    style: Bold
+
+  italic:
+    family: FiraCode Nerd Font
+    style: Italic
+
+  bold_italic:
+    family: FiraCode Nerd Font
+    style: Bold Italic
+
+  size: 11.5
+
+window:
+  opacity: 0.7
