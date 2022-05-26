@@ -1,0 +1,5 @@
+require('impatient').enable_profile()
+require('plugins')
+require('theme')
+require('binds')
+require('editing')
