@@ -64,11 +64,11 @@ static const char unknown_str[] = "n/a";
  * wifi_essid          WiFi ESSID                      interface name (wlan0)
  */
 static const struct arg args[] = {
- { uptime,      "^c#98c379^ Uptime: %s  ", NULL },
- { cpu_perc,    "^c#e5c07b^ Cpu: %s%%  ", NULL	      },
- { ram_perc,    "^c#61afef^ Ram: %s%%  ", NULL	      },
- { disk_perc,   "^c#ABB2BF^ Disk: %s%%  ", "/"       },
- { netspeed_rx, "^c#56B6C2^ Receive: %s  ", "enp34s0" },
- { netspeed_tx, "^c#E5C07B^ Send: %s  ", "enp34s0" },
- { datetime,   "^c#E06C75^ Time/Date: %s",           "%a %b %d - %I:%M%p" },
+    {uptime, "^c#98c379^ Uptime: %s |", NULL},
+    {cpu_perc, "^c#e5c07b^ Cpu: %s%% |", NULL},
+    {ram_perc, "^c#61afef^ Ram: %s%% |", NULL},
+    {disk_perc, "^c#ABB2BF^ Disk: %s%% | ", "/"},
+    {netspeed_rx, "^c#56B6C2^Receive: %s|", "enp34s0"},
+    {netspeed_tx, "^c#E5C07B^ Send: %s|", "enp34s0"},
+    {datetime, "^c#E06C75^ Time/Date: %s", "%a %b %d - %I:%M%p "},
 };
