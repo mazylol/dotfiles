@@ -1,0 +1,19 @@
+--- x.c
++++ x.c
+@@ -56,7 +56,6 @@ static void selpaste(const Arg *);
+ static void zoom(const Arg *);
+ static void zoomabs(const Arg *);
+ static void zoomreset(const Arg *);
+-static void setpalette(const Arg *);
+ 
+ /* config.h for applying patches and the configuration. */
+ #include "config.h"
+@@ -732,7 +748,7 @@ xloadcols(void)
+ 	static int loaded;
+ 	Color *cp;
+ 
+-	dc.collen = 16;
++	dc.collen = MAX(LEN(colorname), 256);
+ 	dc.col = xmalloc(dc.collen * sizeof(Color));
+ 
+ 	if (loaded) {

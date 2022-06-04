@@ -3,14 +3,12 @@ set.termguicolors = true
 
 require('lualine').setup {
  options = {
-  theme = 'palenight'
+  theme = 'sonokai'
  }
 }
 
-require('onedark').load()
+vim.g['sonokai_better_performance'] = 1
 
--- vim.cmd[[
--- set background=dark
--- ]]
-
--- vim.g['everforest_better_preformance'] = 1
+vim.cmd[[
+colorscheme sonokai
+]]

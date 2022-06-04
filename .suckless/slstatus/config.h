@@ -70,5 +70,5 @@ static const struct arg args[] = {
     {disk_perc, "^c#ABB2BF^ Disk: %s%% | ", "/"},
     {netspeed_rx, "^c#56B6C2^Receive: %s|", "enp34s0"},
     {netspeed_tx, "^c#E5C07B^ Send: %s|", "enp34s0"},
-    {datetime, "^c#E06C75^ Time/Date: %s", "%a %b %d - %I:%M%p "},
+    {datetime, "^c#E06C75^ Date/Time: %s", "%a %b %d - %I:%M%p "},
 };

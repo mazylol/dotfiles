@@ -9,6 +9,8 @@ return require('packer').startup(function()
  use 'morhetz/gruvbox'
  use 'sainnhe/everforest'
  use 'navarasu/onedark.nvim'
+ use 'carakan/new-railscasts-theme'
+ use 'sainnhe/sonokai'
  
  -- syntax
  use 'sheerun/vim-polyglot'

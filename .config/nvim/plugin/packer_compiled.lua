@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/home/mazy/.local/share/nvim/site/pack/packer/start/neoformat",
     url = "https://github.com/sbdchd/neoformat"
   },
+  ["new-railscasts-theme"] = {
+    loaded = true,
+    path = "/home/mazy/.local/share/nvim/site/pack/packer/start/new-railscasts-theme",
+    url = "https://github.com/carakan/new-railscasts-theme"
+  },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/home/mazy/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
@@ -133,6 +138,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/mazy/.local/share/nvim/site/pack/packer/start/presence.nvim",
     url = "https://github.com/andweeb/presence.nvim"
+  },
+  sonokai = {
+    loaded = true,
+    path = "/home/mazy/.local/share/nvim/site/pack/packer/start/sonokai",
+    url = "https://github.com/sainnhe/sonokai"
   },
   ["trouble.nvim"] = {
     config = { "\27LJ\2\n9\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\ftrouble\frequire\0" },
