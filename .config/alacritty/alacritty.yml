@@ -1,60 +1,29 @@
-items:
-  - colors:
-      name: 3024 (dark)
-      author: Chris Kempson
-      primary:
-        background: "#090300"
-        foreground: "#a5a2a2"
-      cursor:
-        text: "#090300"
-        cursor: "#a5a2a2"
-      normal:
-        black: "#090300"
-        red: "#db2d20"
-        green: "#01a252"
-        yellow: "#fded02"
-        blue: "#01a0e4"
-        magenta: "#a16a94"
-        cyan: "#b5e4f4"
-        white: "#a5a2a2"
-      bright:
-        black: "#5c5855"
-        red: "#db2d20"
-        green: "#01a252"
-        yellow: "#fded02"
-        blue: "#01a0e4"
-        magenta: "#a16a94"
-        cyan: "#b5e4f4"
-        white: "#f7f7f7"
-  - theme: 3024.dark
 colors:
-  name: Railscasts (dark)
-  author: Chris Kempson
+  # Default colors
   primary:
-    background: "#2b2b2b"
-    foreground: "#e6e1dc"
-  cursor:
-    text: "#2b2b2b"
-    cursor: "#e6e1dc"
+    background: '#2D2D2D'
+    foreground: '#B3B9C5'
+  # Normal colors
   normal:
-    black: "#2b2b2b"
-    red: "#da4939"
-    green: "#a5c261"
-    yellow: "#ffc66d"
-    blue: "#6d9cbe"
-    magenta: "#b6b3eb"
-    cyan: "#519f50"
-    white: "#e6e1dc"
+    black: '#2D2D2D'
+    red: '#F2777A'
+    green: '#92D192'
+    yellow: '#FFD479'
+    blue: '#6AB0F3'
+    magenta: '#E1A6F2'
+    cyan: '#76D4D6'
+    white: '#B3B9C5'
+  # Bright colors
   bright:
-    black: "#5a647e"
-    red: "#da4939"
-    green: "#a5c261"
-    yellow: "#ffc66d"
-    blue: "#6d9cbe"
-    magenta: "#b6b3eb"
-    cyan: "#519f50"
-    white: "#f9f7f3"
-theme: Railscasts.dark
+    black: '#777C85'
+    red: '#F2777A'
+    green: '#76D4D6'
+    yellow: '#FFEEA6'
+    blue: '#6AB0F3'
+    magenta: '#E1A6F2'
+    cyan: '#76D4D6'
+    white: '#FFFFFF'
+theme: New-Moon
 
 font:
   normal:
@@ -76,4 +45,4 @@ font:
   size: 11.5
 
 window:
-  opacity: 0.7
+  opacity: 0.8
