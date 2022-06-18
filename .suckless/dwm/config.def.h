@@ -97,7 +97,7 @@ static char dmenumon[2] =
 static const char *dmenucmd[] = {
     "dmenu_run", "-m",      dmenumon, "-fn",    dmenufont, "-nb",     col_gray1,
     "-nf",       col_gray3, "-sb",    col_cyan, "-sf",     col_gray4, NULL};
-static const char *termcmd[] = {"st", NULL};
+static const char *termcmd[] = {"alacritty", NULL};
 static const char *screenshot[] = {"flameshot", "gui", NULL};
 static const char *browser[] = {"firefox", NULL};
 static const char *music[] = {"spotify", NULL};
