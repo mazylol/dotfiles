@@ -26,6 +26,7 @@ return require('packer').startup(function()
  use 'tpope/vim-commentary'
  use 'haya14busa/incsearch.vim'
  use 'junegunn/fzf.vim'
+ use 'github/copilot.vim'
 
  -- performance
  use 'lewis6991/impatient.nvim'

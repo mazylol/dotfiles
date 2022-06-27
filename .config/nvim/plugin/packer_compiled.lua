@@ -74,6 +74,11 @@ _G.packer_plugins = {
     path = "/home/mazy/.local/share/nvim/site/pack/packer/start/auto-pairs",
     url = "https://github.com/jiangmiao/auto-pairs"
   },
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "/home/mazy/.local/share/nvim/site/pack/packer/start/copilot.vim",
+    url = "https://github.com/github/copilot.vim"
+  },
   everforest = {
     loaded = true,
     path = "/home/mazy/.local/share/nvim/site/pack/packer/start/everforest",
