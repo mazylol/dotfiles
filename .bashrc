@@ -13,7 +13,8 @@ alias \
   grep='grep --color=auto' \
   obsconvert='f() { ffmpeg -i "$1" -vcodec mjpeg -q:v 2 -acodec pcm_s16be -q:a 0 -f mov "$2"; unset -f f; }; f' \
   ls='exa --icons' \
-  config='git --git-dir $HOME/.dotfiles --work-tree=$HOME'
+  config='git --git-dir $HOME/.dotfiles --work-tree=$HOME' \
+  windowz='neofetch --ascii_distro windows'
 
 . "$HOME/.cargo/env"
 
