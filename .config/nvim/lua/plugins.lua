@@ -11,6 +11,10 @@ return require('packer').startup(function()
  use 'navarasu/onedark.nvim'
  use 'carakan/new-railscasts-theme'
  use 'sainnhe/sonokai'
+ use({
+     "catppuccin/nvim",
+     as = "catppuccin"
+   })
  
  -- syntax
  use 'sheerun/vim-polyglot'

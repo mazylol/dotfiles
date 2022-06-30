@@ -1,5 +1,6 @@
+local catppuccin = require("catppuccin")
+
 local set = vim.opt
-set.termguicolors = true
 
 require('lualine').setup {
  options = {
@@ -7,8 +8,4 @@ require('lualine').setup {
  }
 }
 
-vim.g['sonokai_better_performance'] = 1
-
-vim.cmd[[
-colorscheme sonokai
-]]
+catppuccin.setup()

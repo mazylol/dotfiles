@@ -1,29 +1,39 @@
 colors:
   # Default colors
   primary:
-    background: '#2D2D2D'
-    foreground: '#B3B9C5'
+    background: '0x1E1D2F'
+    foreground: '0xD9E0EE'
+
+  cursor:
+    text: '0x1E1D2F'
+    cursor: '0xF5E0DC'
+
   # Normal colors
   normal:
-    black: '#2D2D2D'
-    red: '#F2777A'
-    green: '#92D192'
-    yellow: '#FFD479'
-    blue: '#6AB0F3'
-    magenta: '#E1A6F2'
-    cyan: '#76D4D6'
-    white: '#B3B9C5'
+    black: '0x6E6C7E'
+    red: '0xF28FAD'
+    green: '0xABE9B3'
+    yellow: '0xFAE3B0'
+    blue: '0x96CDFB'
+    magenta: '0xF5C2E7'
+    cyan: '0x89DCEB'
+    white: '0xD9E0EE'
+
   # Bright colors
   bright:
-    black: '#777C85'
-    red: '#F2777A'
-    green: '#76D4D6'
-    yellow: '#FFEEA6'
-    blue: '#6AB0F3'
-    magenta: '#E1A6F2'
-    cyan: '#76D4D6'
-    white: '#FFFFFF'
-theme: New-Moon
+    black: '0x988BA2'
+    red: '0xF28FAD'
+    green: '0xABE9B3'
+    yellow: '0xFAE3B0'
+    blue: '0x96CDFB'
+    magenta: '0xF5C2E7'
+    cyan: '0x89DCEB'
+    white: '0xD9E0EE'
+
+  indexed_colors:
+    - { index: 16, color: '0xF8BD96' }
+    - { index: 17, color: '0xF5E0DC' }
+theme: Catppuccin
 
 font:
   normal:
