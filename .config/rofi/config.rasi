@@ -1,0 +1,4 @@
+configuration {
+font: "FiraCode Nerd Font";
+}
+@theme "/usr/share/rofi/themes/gruvbox-dark-soft.rasi"
